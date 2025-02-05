@@ -2,8 +2,14 @@ $fn= 20;
 
 text = "M0x0";
 
-difference() {
+translate([37.7/2,(10+1.85)/2,0.2]) {
+  rotate([0,180,0]) {
+    linear_extrude(0.2)
+    text(text, size=8, halign = "center", valign = "center");
+  }
+}
 
+difference() {
   hull() {
     cube([37.7,10,1.3]);
 
@@ -35,9 +41,4 @@ difference() {
   }
 }
 
-translate([37.7/2,(10+1.85)/2,0.2]) {
-    rotate([0,180,0]) {
-      linear_extrude(0.2)
-      text(text, size=8, halign = "center", valign = "center");
-    }
-  }
+
