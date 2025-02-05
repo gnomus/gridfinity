@@ -1,6 +1,8 @@
 texts = [
-  "M3N",
-  "M3I",
+  "M3n",
+  "M3nN",
+  "M3nS",
+  "M3i",
   "M3x6",
   "M3x8",
   "M3x10",
@@ -8,8 +10,10 @@ texts = [
   "M3x16",
   "M3x20",
   "M3x30",
-  "M3N",
-  "M3W",
+  "M4n",
+  "M4nN",
+  "M4nS",
+  "M4w",
   "M4x6",
   "M4x8",
   "M4x10",
@@ -20,7 +24,10 @@ texts = [
   "M4x20",
   "M4x25",
   "M4x30",
-  "M4x6",
+  "M5n",
+  "M5nN",
+  "M5nS",
+  "M5w",
 ]
 
 texts.each do |text|
